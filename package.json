@@ -18,7 +18,7 @@
     "aws",
     "lambda"
   ],
-  "main": "index.js",
+  "main": "dist/aws-lambda-nodejs-response.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Regis24GmbH/aws-lambda-nodejs-response.git"
