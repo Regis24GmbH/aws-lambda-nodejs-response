@@ -1,0 +1,33 @@
+{
+  "name": "@regis24/aws-lambda-nodejs-response",
+  "description": "A simple package to unify the response of AWS lambdas ...",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Regis24",
+    "email": "",
+    "url": "https://www.regis24.de"
+  },
+  "contributors": [
+    {
+      "name": "Enrico Hoffmann",
+      "email": "enrico_hoffmann@regis24.de"
+    }
+  ],
+  "keywords": [
+    "aws",
+    "lambda"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Regis24GmbH/aws-lambda-nodejs-response.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Regis24GmbH/aws-lambda-nodejs-response/issues"
+  },
+  "homepage": "https://github.com/Regis24GmbH/aws-lambda-nodejs-response#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
