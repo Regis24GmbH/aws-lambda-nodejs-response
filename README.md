@@ -1,6 +1,7 @@
 [![github tag][github-tag-image]][github-tag-url]
 [![npm version][npm-version-image]][npm-version-url]
 [![npm downloads][npm-downloads-image]][npm-downloads-url]
+[![Build Status][travis-image]][travis-url]
 [![License][license-image]][license-url]
 
 ***
@@ -35,3 +36,6 @@ Licensed under [MIT](https://github.com/Regis24GmbH/aws-lambda-nodejs-response/b
 
 [license-image]: https://img.shields.io/github/license/Regis24GmbH/aws-lambda-nodejs-response.svg?style=flat-square
 [license-url]: https://github.com/Regis24GmbH/aws-lambda-nodejs-response/blob/master/LICENSE
+
+[travis-image]: https://travis-ci.org/Regis24GmbH/aws-lambda-nodejs-response.svg?branch=master
+[travis-url]: https://travis-ci.org/Regis24GmbH/aws-lambda-nodejs-response
