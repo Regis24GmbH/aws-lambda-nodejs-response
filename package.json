@@ -28,6 +28,11 @@
   },
   "homepage": "https://github.com/Regis24GmbH/aws-lambda-nodejs-response#readme",
   "scripts": {
+    "lint": "eslint ./src/*.js",
+    "pretest": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1"
   }
 }
