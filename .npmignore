@@ -4,6 +4,7 @@ test
 .editorconfig
 .eslintrc.json
 .gitignore
+.idea
 .npmignore
 .travis.yml
 webpack.config.js
