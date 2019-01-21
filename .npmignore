@@ -1,0 +1,9 @@
+coverage
+src
+test
+.editorconfig
+.eslintrc.json
+.gitignore
+.npmignore
+.travis.yml
+webpack.config.js
