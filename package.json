@@ -14,6 +14,9 @@
       "email": "enrico_hoffmann@regis24.de"
     }
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "aws",
     "lambda"
