@@ -29,10 +29,16 @@
   "homepage": "https://github.com/Regis24GmbH/aws-lambda-nodejs-response#readme",
   "scripts": {
     "lint": "eslint ./src/*.js",
+    "coverage": "istanbul cover _mocha",
     "pretest": "npm run lint",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/**/*test.js",
+    "posttest": "npm run coverage"
   },
   "devDependencies": {
-    "eslint": "^5.12.1"
+    "@types/chai": "^4.1.7",
+    "chai": "^4.2.0",
+    "eslint": "^5.12.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
   }
 }

@@ -25,17 +25,16 @@
  * }
  */
 function sendInvokeResponse(context, callback, statusCode, contentObject) {
-  let responseObject;
+  // set default responseObject as error-500
+  let responseObject = {
+    httpStatus: 500,
+    requestId: context.awsRequestId,
+    message: 'Internal Server Error',
+    error: contentObject ? contentObject : null
+  };
+  // 200 - overwrite complete responseObject
   if (statusCode === 200) {
     responseObject = contentObject;
-  } else {
-    // set default error object
-    responseObject = {
-      httpStatus: 500,
-      requestId: context.awsRequestId,
-      message: 'Internal Server Error',
-      error: contentObject ? contentObject : null
-    };
   }
   // 400 - overwrite default error object
   if (statusCode === 400) {
