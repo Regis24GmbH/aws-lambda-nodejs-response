@@ -35,7 +35,8 @@
     "coverage": "istanbul cover _mocha",
     "pretest": "npm run lint",
     "test": "mocha test/**/*test.js",
-    "posttest": "npm run coverage"
+    "posttest": "npm run coverage",
+    "postversion": "git push && git push --tags"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
