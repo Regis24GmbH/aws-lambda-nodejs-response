@@ -1,3 +1,11 @@
 language: node_js
 node_js:
-  - "lts/*"
+- lts/*
+deploy:
+  provider: npm
+  email: dasrick@gmail.com
+  api_key:
+    secure: $NPM_TOKEN
+  on:
+    tags: true
+    repo: Regis24GmbH/aws-lambda-nodejs-response
