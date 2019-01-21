@@ -21,17 +21,17 @@
 
 ## License
 
-Licensed under [MIT](https://github.com/regis24gmbh/aws-lambda-nodejs-response/blob/master/LICENSE)
+Licensed under [MIT](https://github.com/Regis24GmbH/aws-lambda-nodejs-response/blob/master/LICENSE)
 
 ***
 
-[github-tag-image]: https://img.shields.io/github/tag/regis24gmbh/aws-lambda-nodejs-response.svg?style=flat-square
-[github-tag-url]: https://github.com/regis24gmbh/aws-lambda-nodejs-response
+[github-tag-image]: https://img.shields.io/github/tag/Regis24GmbH/aws-lambda-nodejs-response.svg?style=flat-square
+[github-tag-url]: https://github.com/Regis24GmbH/aws-lambda-nodejs-response
 
 [npm-version-image]: https://img.shields.io/npm/v/aws-lambda-nodejs-response.svg?style=flat-square
 [npm-version-url]: https://www.npmjs.com/package/aws-lambda-nodejs-response
 [npm-downloads-image]: https://img.shields.io/npm/dm/aws-lambda-nodejs-response.svg?style=flat-square
 [npm-downloads-url]: https://www.npmjs.com/package/aws-lambda-nodejs-response
 
-[license-image]: https://img.shields.io/github/license/regis24gmbh/aws-lambda-nodejs-response.svg?style=flat-square
-[license-url]: https://github.com/regis24gmbh/aws-lambda-nodejs-response/blob/master/LICENSE
+[license-image]: https://img.shields.io/github/license/Regis24GmbH/aws-lambda-nodejs-response.svg?style=flat-square
+[license-url]: https://github.com/Regis24GmbH/aws-lambda-nodejs-response/blob/master/LICENSE
