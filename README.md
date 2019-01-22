@@ -10,8 +10,6 @@
 
 > A simple package to unify the response of AWS lambdas ...
 
-...
-
 ## Installation
 
 Install with [npm](https://www.npmjs.com/)
@@ -20,10 +18,9 @@ Install with [npm](https://www.npmjs.com/)
 $ npm i @regis24/aws-lambda-nodejs-response --save
 ```
 
-
 ## Usage
 
-...
+Just `require` the package and use one of the implemented calls (`sendInvokeResponse`, `sendApiResponse`)
 
 ```
 const Response = require('@regis24/aws-lambda-nodejs-response');
