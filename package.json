@@ -21,7 +21,7 @@
     "aws",
     "lambda"
   ],
-  "main": "dist/aws-lambda-nodejs-response.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Regis24GmbH/aws-lambda-nodejs-response.git"
@@ -31,10 +31,7 @@
   },
   "homepage": "https://github.com/Regis24GmbH/aws-lambda-nodejs-response#readme",
   "scripts": {
-    "clean": "rimraf dist",
-    "build-dev": "npm run clean && webpack --mode=development",
-    "build": "npm run clean && webpack --mode=production",
-    "lint": "eslint ./src/*.js",
+    "lint": "eslint ./*.js",
     "coverage": "istanbul cover _mocha",
     "pretest": "npm run lint",
     "test": "mocha test/**/*test.js",
@@ -46,9 +43,6 @@
     "chai": "^4.2.0",
     "eslint": "^5.12.1",
     "istanbul": "^0.4.5",
-    "mocha": "^5.2.0",
-    "rimraf": "^2.6.3",
-    "webpack": "^4.29.0",
-    "webpack-cli": "^3.2.1"
+    "mocha": "^5.2.0"
   }
 }

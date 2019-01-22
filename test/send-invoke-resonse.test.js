@@ -2,7 +2,7 @@
 
 const expect = require('chai').expect;
 const should = require('chai').should();
-const Response = require('../src/index');
+const Response = require('../index');
 
 const context = {
   awsRequestId: 'abc-123-cde'

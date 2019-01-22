@@ -1,7 +1,7 @@
 'use strict';
 
 const expect = require('chai').expect;
-const Response = require('../src/index');
+const Response = require('../index');
 
 const context = {
   awsRequestId: 'abc-123-cde'

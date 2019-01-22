@@ -14,11 +14,24 @@
 
 ## Installation
 
-...
+Install with [npm](https://www.npmjs.com/)
+
+```sh
+$ npm i @regis24/aws-lambda-nodejs-response --save
+```
+
 
 ## Usage
 
 ...
+
+```
+const Response = require('@regis24/aws-lambda-nodejs-response');
+	... and then call via ...
+Response.sendInvokeResponse(context, callback, 200, contenObject);
+	... or ...
+Response.sendApiResponse(context, callback, 200, contenObject);
+```
 
 ## License
 
