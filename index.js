@@ -65,12 +65,11 @@ function sendInvokeResponse(context, callback, statusCode, contentObject) {
     responseObject.httpStatus = 400;
     responseObject.message = 'Bad Request';
   }
-  const responseString = JSON.stringify(responseObject);
   if (statusCode === 200) {
-    callback(null, responseString);
+    callback(null, responseObject);
   } else {
-    console.log(JSON.parse(responseString));
-    callback(responseString);
+    console.log(responseObject);
+    callback(JSON.stringify(responseObject));
   }
 }
 

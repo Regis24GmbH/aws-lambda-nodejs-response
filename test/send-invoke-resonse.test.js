@@ -13,7 +13,7 @@ const contentObject = {
 
 describe('sendInvokeResonse', function () {
   it('should respond with 200 for call with 200', function (done) {
-    const expectedResponseString = JSON.stringify(contentObject);
+    const expectedResponseString = contentObject;
     let callback = (error, result) => {
       expect(error).to.be.null;
       expect(result).to.deep.equal(expectedResponseString);
