@@ -51,4 +51,4 @@ jspm_packages/
 .next
 
 ## our stuff
-dist
+.nyc_output
