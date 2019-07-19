@@ -32,14 +32,15 @@
   "homepage": "https://github.com/Regis24GmbH/aws-lambda-nodejs-response#readme",
   "scripts": {
     "lint": "eslint ./*.js",
-    "coverage": "nyc npm run test",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "pretest": "npm run lint",
-    "test": "mocha test/**/*test.js",
+    "test": "nyc mocha test/**/*test.js",
     "postversion": "git push && git push --tags"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "chai": "^4.2.0",
+    "coveralls": "^3.0.5",
     "eslint": "^6.0.1",
     "mocha": "^6.2.0",
     "nyc": "^14.1.1"
