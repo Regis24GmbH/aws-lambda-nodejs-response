@@ -1,7 +1,7 @@
 {
   "name": "@regis24/aws-lambda-nodejs-response",
   "description": "A simple package to unify the response of AWS lambdas ...",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "author": {
     "name": "Regis24",
