@@ -3,6 +3,7 @@
 [![npm downloads][npm-downloads-image]][npm-downloads-url]
 [![david dependencies][david-dependencies-image]][david-dependencies-url]
 [![david devdependencies][david-devdependencies-image]][david-devdependencies-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
 [![Build Status][travis-image]][travis-url]
 [![License][license-image]][license-url]
 
@@ -50,6 +51,9 @@ Licensed under [MIT](https://github.com/Regis24GmbH/aws-lambda-nodejs-response/b
 [david-dependencies-url]: https://david-dm.org/Regis24GmbH/aws-lambda-nodejs-response
 [david-devdependencies-image]: https://img.shields.io/david/dev/Regis24GmbH/aws-lambda-nodejs-response.svg
 [david-devdependencies-url]: https://david-dm.org/Regis24GmbH/aws-lambda-nodejs-response?type=dev
+
+[coveralls-image]: https://coveralls.io/repos/github/Regis24GmbH/aws-lambda-nodejs-response/badge.svg?branch=coverage-report
+[coveralls-url]: https://coveralls.io/github/Regis24GmbH/aws-lambda-nodejs-response?branch=coverage-report
 
 [license-image]: https://img.shields.io/github/license/Regis24GmbH/aws-lambda-nodejs-response.svg?style=flat-square
 [license-url]: https://github.com/Regis24GmbH/aws-lambda-nodejs-response/blob/master/LICENSE
