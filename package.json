@@ -1,7 +1,7 @@
 {
   "name": "@regis24/aws-lambda-nodejs-response",
   "description": "A simple package to unify the response of AWS lambdas ...",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "MIT",
   "author": {
     "name": "Regis24",
@@ -42,7 +42,10 @@
     "chai": "^4.3.4",
     "coveralls": "^3.1.0",
     "eslint": "^7.25.0",
-    "mocha": "^8.3.2",
+    "mocha": "^10.1.0",
     "nyc": "^15.1.0"
+  },
+  "engines": {
+    "node": ">=12.0 <20.0.0"
   }
 }
